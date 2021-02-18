@@ -1,8 +1,8 @@
-# ehasson2-zayda2-colinet2-lwg2
-Final Project
+# OpenFlights Analysis
+CS225 Final Project
 # OpenFlights Graph
 
-This project implements a graph data structure that handles data from the OpenFlights dataset.  It implements a directed, Adjacency List-based graph that requires integers as vertices.  Included are basic graph functions, such as insertEdge, removeEdge, insertVertex, removeVertex, and so on.  A BFS traversal is implemented, in addition to algorithms such as Dijkstra's and Betweenness Centrality.  The user will input source and destination airports for the program to return the shortest path (by distance) between them, in addition to the shortest possible paths between the source airport and every other airport.  Due to memory and runtime issues, the program will only return betweenness centrality for the set if it is a subset of the whole 7810 airport dataset.  Test cases allow the user to verify the success of the graph implementation.
+This project implements a graph data structure that handles data from the OpenFlights dataset. It implements a directed, Adjacency List-based graph that requires integers as vertices. Included are basic graph functions, such as insertEdge, removeEdge, insertVertex, removeVertex, etc., as well as a BFS traversal. The program uses Dijkstra's algorithm to compute shortest path and a version of the Betweenness Centrality algorithm to indicate the centrality or importance of a given airport. The user is able to input source and destination airport codes for which the program will return the shortest path (by distance) between them, in addition to the shortest possible paths between the source airport and every other airport and a resulting measure of centrality. Comprehensive test cases allow the user to verify the success of the graph implementation.
 
 ## Installation
 
@@ -40,4 +40,4 @@ make && ./main
 
 ## Roadmap
 
-Future improvement includes decreasing the runtime of the betweenness centrality algorithms.
+Future improvement includes decreasing runtime of the betweenness centrality algorithms.
